@@ -1,5 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Nov 11 00:27:39 2022
+
+@author: MANOJ KUMAR
+"""
 
 from torch.utils.data import Dataset, DataLoader
 from torch.autograd import Variable
@@ -109,10 +113,10 @@ lr = 0.001
 input_param = data_nums
 hidden_num = 30
 hidden_num3 = 3
-output_param = 5
+output_param = 4
 
 # train nums
-n_iter_max = 6000
+n_iter_max = 5000
 x = np.linspace(0, 1, data_nums)
 y = g(x)
 # array2tensor
@@ -157,13 +161,3 @@ for idx, xx in enumerate(data):
         total_value += a_value[i] * xx **i
     print(total_value)
     print(g(xx))
-#print(outputs) 
-#u_ana = np.sin(data)
-#plt.figure()
-#plt.plot(x, u_net, label='ANN-based solution')
-#plt.plot(data, u_ana, '.', label='analytical solution')
-#plt.ylabel('u')
-#plt.xlabel('t')
-#plt.title('comparing solutions')
-#plt.legend()
-#plt.show()
