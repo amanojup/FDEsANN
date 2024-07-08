@@ -1,6 +1,6 @@
 # FDE_ANN
 # article
-This paper, titled "Artificial Neural Network for Solving Nonlinear Singular Fractional Differential Equations" [1], presents three examples. The code for the first example has been uploaded here. However, please note that due to copyright issues, it is advisable to contact the authors directly to obtain the code.
+This paper, titled "Artificial Neural Network for Solving Nonlinear Singular Fractional Differential Equations" [1], presents three examples. The code for the examples has been uploaded here. However, please note that due to copyright issues, it is advisable to contact the authors directly to obtain the code.
 
 
 # author
